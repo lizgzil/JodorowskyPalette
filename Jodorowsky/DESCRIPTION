@@ -1,0 +1,8 @@
+Package: Jodorowsky
+Title: Jodorowsky Colour Palettes
+Version: 1.0
+Authors: Elizabeth Gallagher
+Description: Jodorowsky colour schemes from El Topo, The Holy Mountain and Santa Sangre.
+Depends: R (>= 3.0.2)
+License: 
+LazyData: true
