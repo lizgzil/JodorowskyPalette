@@ -2,3 +2,4 @@
 # JodorowskyPalette
 # JodorowskyPalette
 # JodorowskyColourPalette
+# JodorowskyColourPalette
