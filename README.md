@@ -5,7 +5,9 @@ Colour palettes for R from three of Alejandro Jodorowsky’s films: El Topo (4 p
 ## Installation
 
 ``` r
-install.packages("Jodorowsky")
+install.packages("devtools")
+library(devtools)
+install_github("lizgzil/JodorowskyPalette", subdir="Jodorowsky")
 ```
 ## Usage
 
