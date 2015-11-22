@@ -43,14 +43,14 @@ Numbered from top left to bottom right.
 ![](holymountain_neat2.jpg)
 
 ## Santa Sangre
-These are quite dark : (
+I should have used the remastered version as these are quite dark : (
 ![](santasangre_neat2.jpg)
 
 
 
 # Blend colours
 
-You can create a blend of the palette colours. Here I’ve blended the 1st Holy Mountain palette into 50 colours.
+You can create a blend of the palette colours if you need more than 5 or 6. Here I’ve blended the 1st Holy Mountain palette into 50 colours.
 
 ``` r
 
