@@ -28,7 +28,7 @@ for (j in 1:5)
 ```
 
 
-![](holymountainexample2.jpg)
+![](holymountainexample2.jpg =5x)
 
 # Palettes
 
