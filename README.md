@@ -1,6 +1,6 @@
 # JodorowskyPalette
 
-Colour palettes from three of Alejandro Jodorowsky’s films: El Topo (4 palettes), Santa Sangre (8 palettes), and The Holy Mountain (7 palettes).
+Colour palettes for R from three of Alejandro Jodorowsky’s films: El Topo (4 palettes), Santa Sangre (8 palettes), and The Holy Mountain (7 palettes).
 
 ## Installation
 
@@ -22,6 +22,49 @@ santa_sangre(2)
 for (j in 1:5)
  {
  	plot(j,1,col=holy_mountain(1)[j], pch=16, cex=20, xlim=c(0,6), xlab="", ylab="", xaxt="n", yaxt="n", bty="n", main=paste("holy_mountain ",1))
+ 	par(new=TRUE)
+ }
+
+```
+
+
+![](holymountainexample2.jpg)
+
+# Palettes
+Numbered from top left to bottom right.
+
+## El Topo
+
+
+![](el_topo_neat2.jpg)
+
+## The Holy Mountain
+
+![](holymountain_neat2.jpg)
+
+## Santa Sangre
+These are quite dark : (
+![](santasangre_neat2.jpg)
+
+
+
+# Blend colours
+
+You can create a blend of the palette colours. Here I’ve blended the 1st Holy Mountain palette into 50 colours.
+
+``` r
+
+colfunc <- colorRampPalette(holy_mountain(1))
+colrange = colfunc(50);
+
+for (j in 1:50)
+{
+	plot(j,1,col= colrange[j], pch=16, cex=2, ylim = c(0.9,1.1),xlim=c(0,51), xlab="", ylab="", xaxt="n", yaxt="n", bty="n", main=paste("holy_mountain ",1))
+	par(new=TRUE)
+}
+```
+![](holymountainexample502.jpg)
+ntain(1)[j], pch=16, cex=20, xlim=c(0,6), xlab="", ylab="", xaxt="n", yaxt="n", bty="n", main=paste("holy_mountain ",1))
  	par(new=TRUE)
  }
 
